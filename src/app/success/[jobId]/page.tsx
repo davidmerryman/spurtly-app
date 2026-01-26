@@ -49,7 +49,7 @@ export default function SuccessPage() {
   };
 
   const instantlyUrl = job?.campaign_id
-    ? `https://app.instantly.ai/app/campaigns/${job.campaign_id}`
+    ? `https://app.instantly.ai/app/campaign/status/${job.campaign_id}`
     : null;
 
   const sheetsUrl = job?.sheet_id
